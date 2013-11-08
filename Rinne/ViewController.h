@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) ViewController *programViewController;
+@property (nonatomic, retain) NSMutableData *receivedData;
+
+- (IBAction)pushViewController:(id)sender;
 
 @end

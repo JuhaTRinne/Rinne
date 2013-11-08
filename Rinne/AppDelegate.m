@@ -10,14 +10,20 @@
 
 #import "ViewController.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    
+    navController = [[UINavigationController alloc] init];
+    self.window.rootViewController = navController;
+    navController.navigationBarHidden = YES;
+    ViewController *viewController = [[ViewController alloc] init];
+    [navController pushViewController:viewController animated:NO];
+    [self.window addSubview:navController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

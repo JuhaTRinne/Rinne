@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		978DF773182D0B1A005286AF /* ProgramView2.png in Resources */ = {isa = PBXBuildFile; fileRef = 978DF772182D0B1A005286AF /* ProgramView2.png */; };
+		9795FEBF182C0745007F9E57 /* ChannelView.png in Resources */ = {isa = PBXBuildFile; fileRef = 9795FEBB182C0745007F9E57 /* ChannelView.png */; };
+		9795FEC7182C0A91007F9E57 /* ProgramViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9795FEC6182C0A91007F9E57 /* ProgramViewViewController.m */; };
+		9795FEC9182C3480007F9E57 /* ProgramView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9795FEC8182C3480007F9E57 /* ProgramView.xib */; };
 		979C3F18182BD5EB0012E96D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979C3F17182BD5EB0012E96D /* UIKit.framework */; };
 		979C3F1A182BD5EB0012E96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979C3F19182BD5EB0012E96D /* Foundation.framework */; };
 		979C3F1C182BD5EB0012E96D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979C3F1B182BD5EB0012E96D /* CoreGraphics.framework */; };
@@ -23,6 +27,8 @@
 		979C3F3E182BD5EB0012E96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979C3F19182BD5EB0012E96D /* Foundation.framework */; };
 		979C3F46182BD5EB0012E96D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 979C3F44182BD5EB0012E96D /* InfoPlist.strings */; };
 		979C3F49182BD5EB0012E96D /* RinneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 979C3F48182BD5EB0012E96D /* RinneTests.m */; };
+		979C3F59182BDFCC0012E96D /* ChannelListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 979C3F58182BDFCC0012E96D /* ChannelListCell.m */; };
+		979C3F5B182BE8E10012E96D /* ChannelListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 979C3F5A182BE8E10012E96D /* ChannelListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		978DF772182D0B1A005286AF /* ProgramView2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProgramView2.png; sourceTree = "<group>"; };
+		9795FEBB182C0745007F9E57 /* ChannelView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChannelView.png; sourceTree = "<group>"; };
+		9795FEC5182C0A91007F9E57 /* ProgramViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramViewViewController.h; sourceTree = "<group>"; };
+		9795FEC6182C0A91007F9E57 /* ProgramViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramViewViewController.m; sourceTree = "<group>"; };
+		9795FEC8182C3480007F9E57 /* ProgramView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgramView.xib; sourceTree = "<group>"; };
 		979C3F14182BD5EB0012E96D /* Rinne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rinne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979C3F17182BD5EB0012E96D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		979C3F19182BD5EB0012E96D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +69,9 @@
 		979C3F45182BD5EB0012E96D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		979C3F47182BD5EB0012E96D /* RinneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RinneTests.h; sourceTree = "<group>"; };
 		979C3F48182BD5EB0012E96D /* RinneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RinneTests.m; sourceTree = "<group>"; };
+		979C3F57182BDFCB0012E96D /* ChannelListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelListCell.h; sourceTree = "<group>"; };
+		979C3F58182BDFCC0012E96D /* ChannelListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelListCell.m; sourceTree = "<group>"; };
+		979C3F5A182BE8E10012E96D /* ChannelListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChannelListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,9 +133,15 @@
 			children = (
 				979C3F26182BD5EB0012E96D /* AppDelegate.h */,
 				979C3F27182BD5EB0012E96D /* AppDelegate.m */,
+				979C3F57182BDFCB0012E96D /* ChannelListCell.h */,
+				979C3F58182BDFCC0012E96D /* ChannelListCell.m */,
+				979C3F5A182BE8E10012E96D /* ChannelListCell.xib */,
 				979C3F2F182BD5EB0012E96D /* ViewController.h */,
 				979C3F30182BD5EB0012E96D /* ViewController.m */,
 				979C3F32182BD5EB0012E96D /* ViewController.xib */,
+				9795FEC5182C0A91007F9E57 /* ProgramViewViewController.h */,
+				9795FEC6182C0A91007F9E57 /* ProgramViewViewController.m */,
+				9795FEC8182C3480007F9E57 /* ProgramView.xib */,
 				979C3F1E182BD5EB0012E96D /* Supporting Files */,
 			);
 			path = Rinne;
@@ -130,6 +150,8 @@
 		979C3F1E182BD5EB0012E96D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				978DF772182D0B1A005286AF /* ProgramView2.png */,
+				9795FEBB182C0745007F9E57 /* ChannelView.png */,
 				979C3F1F182BD5EB0012E96D /* Rinne-Info.plist */,
 				979C3F20182BD5EB0012E96D /* InfoPlist.strings */,
 				979C3F23182BD5EB0012E96D /* main.m */,
@@ -236,6 +258,10 @@
 				979C3F2C182BD5EB0012E96D /* Default@2x.png in Resources */,
 				979C3F2E182BD5EB0012E96D /* Default-568h@2x.png in Resources */,
 				979C3F34182BD5EB0012E96D /* ViewController.xib in Resources */,
+				979C3F5B182BE8E10012E96D /* ChannelListCell.xib in Resources */,
+				9795FEBF182C0745007F9E57 /* ChannelView.png in Resources */,
+				9795FEC9182C3480007F9E57 /* ProgramView.xib in Resources */,
+				978DF773182D0B1A005286AF /* ProgramView2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +299,8 @@
 				979C3F24182BD5EB0012E96D /* main.m in Sources */,
 				979C3F28182BD5EB0012E96D /* AppDelegate.m in Sources */,
 				979C3F31182BD5EB0012E96D /* ViewController.m in Sources */,
+				979C3F59182BDFCC0012E96D /* ChannelListCell.m in Sources */,
+				9795FEC7182C0A91007F9E57 /* ProgramViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +481,7 @@
 				979C3F4E182BD5EC0012E96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		979C3F4F182BD5EC0012E96D /* Build configuration list for PBXNativeTarget "RinneTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +490,7 @@
 				979C3F51182BD5EC0012E96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
